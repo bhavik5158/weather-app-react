@@ -1,0 +1,29 @@
+.dataResult{
+    margin-top: 4px;
+    position: absolute;
+    /* top: ; */
+    left: 50%;
+    top: 50px;
+    transform: translateX(-50%);
+    z-index: 1;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+    overflow-y: auto;
+    background-color: #74EBD5;
+    border-radius: 7px;
+}
+.dataResult::-webkit-scrollbar{
+    display: none;
+}
+.dataItem{
+    display: flex;
+    cursor: pointer;
+    padding: 8px;
+    align-items: center;
+}
+.dataItem:hover{
+    background-color: aqua;
+}

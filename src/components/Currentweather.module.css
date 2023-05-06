@@ -1,0 +1,45 @@
+.daily_weather{
+    display: flex;
+    align-items: center;
+    background-color: cadetblue;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    padding: 5px 20px;
+    font-size: 14px;
+}
+.icon_img{
+    width: 40px;
+}
+.day{
+    flex: 1 1;
+}
+.description{
+    flex: 1;
+    text-align: end;
+    margin-right: 20px;
+}
+.min_max{
+    color: darkslategray;
+}
+.daily_weather_details{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5px 25px;
+    column-gap: 45px;
+    row-gap: 4px;
+    /* flex: 1 1; */
+}
+.weather_detail_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.weather_detail_item span{
+    color: black;
+    font-weight: 500;
+}
+.weather_detail_item label{
+    color: #36160b;
+    font-weight: 300;
+}
